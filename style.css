@@ -1,0 +1,211 @@
+:root{
+    --bg-primary:#81bcba;
+    --text-theme:#002b76;
+    --bg-light:#dcdcdc;
+    --icon:#7bbab8;
+}
+
+body{
+    margin: 0;
+    color: black;
+    width: 100vw;
+    overflow-x: hidden;
+    font-family:'Google Sans', Arial, sans-serif;
+}
+
+.custom-container{
+    margin: 0 4rem;
+}
+
+.hero-btn{
+    background-color: var(--bg-primary) !important;
+    color: white !important;
+    padding: 0 2rem !important;
+    font-size: 1rem !important;
+}
+
+a{
+    /* all:unset; */
+    text-decoration: none !important;
+    color: black !important;
+    cursor: pointer;
+}
+
+.hero-section{
+    color: white;
+    width: 100%;
+    height: 100vh;
+    background-image: url('/assets/hero-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.divider{
+    height: 5px;
+    background-color: var(--bg-primary);
+    margin:0 43%;
+}
+
+footer{
+    background-image: url('assets/s3.jpg');
+    background-size: cover;
+    background-position: center center;
+    height: 5vh;
+}
+
+.footer{
+    background-color: #123468;
+}
+
+.icon-fill{
+    background-color: #81bcba;
+    border-radius: 50%;
+    width: 45px;
+    height: 45px;
+}
+
+/* .footer-logo{
+    mix-blend-mode: lighten-both;
+} */
+
+.divider-left{
+    height: 5px;
+    background-color: var(--bg-primary);
+    margin:1rem 90% 1rem 0;
+}
+
+.s1-heading{
+    font-size: 2rem;
+    font-weight: 100;
+    color: var(--text-theme);
+
+}
+
+.text-theme{
+    color: var(--text-theme) !important;
+    font-weight: 500;
+}
+
+.text-brown{
+    color: #6a6a6a !important;
+}
+
+.text-theme-lg{
+    color: var(--text-theme) !important;
+    font-weight: 800;
+    font-size: 2.3rem;
+}
+
+.bg-theme{
+    background-color: var(--text-theme) !important;
+}
+
+.bg-light-theme{
+    background-color: var(--bg-light);
+}
+
+.icon{
+    color: var(--icon) !important;
+}
+
+.section-card{
+    position: relative;
+    left: 4rem;
+    bottom:4rem;
+    width: 85%;
+    background-color: white;
+    box-shadow: #cacfcf -2px 2px ;
+    
+}
+
+.text-brand{
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.hero-section h1{
+    font-weight: 900;
+    font-size: 3.5rem;
+}
+
+.hero-section h5{
+    font-weight: 300;
+    font-size: 2.5rem;
+}
+
+.hero-section p{
+    font-size: 1rem;
+}
+
+.box{
+    height: 80vh;
+}
+
+.hero-section .hero-container{
+    height: 50%;
+    width: 100%;
+    background-color: rgba(27, 61, 99, .7);
+}
+
+.kc-logo{
+    mix-blend-mode: darken;
+}
+
+.form-btn{
+    background-color: #81bcba !important;
+    color: white !important;
+    padding: .3rem 3rem !important;
+}
+
+.section-1{
+    background-color: #f6fbfb;
+    margin-top: 5rem;
+}
+
+.section-3{
+    height: 80vh;
+}
+
+.s3-container{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 61, 99, .5);
+    border-radius: 1rem;
+    color: white;
+}
+
+.form{
+    width: 35vw;
+    height: 130%;
+    z-index: 999;
+    box-shadow: black 0 10px 20px -10px;
+    background-color: white;
+}
+
+.s1-img{
+    position: absolute;
+    top: 92vh;
+    left: 62vw;
+    width: 23vw;
+    height: 50vh;
+}
+
+.s2-img{
+    flex-grow: 1;
+   
+}
+
+
+.section-3{
+    background-image: url('/assets/s3.jpg');
+    background-size: cover;
+    background-position: center center;
+}
+
+.profile-img{
+    width: 20vw; 
+    border: 1px solid black;
+    border-radius: 50%;
+   
+}
+
