@@ -197,7 +197,7 @@ footer{
 
 
 .section-3{
-    background-image: url('./assets/s3.jpg');
+    background-image: url('assets/s3.jpg');
     background-size: cover;
     background-position: center center;
 }
