@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mobile.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
@@ -30,19 +31,30 @@
   <body>
     <section class="hero-section text-center">
       <div class="container">
-        <div class="navbar d-flex align-items-center justify-content-between">
-          <img src="assets/kc-logo.png" class="kc-logo" alt="" />
+        <div
+          class="navbar d-flex d-lg-none align-items-center justify-content-between"
+        >
+          <img src="assets/kc-logo.png" class="kc-logo-1" alt="logo" />
+          <i class="fa fa-bars fa-xl text-dark"></i>
+        </div>
+        <div
+          class="navbar d-none d-lg-flex align-items-center justify-content-between"
+        >
+          <img src="assets/kc-logo.png" class="kc-logo" alt="logo" />
+
           <a href="">HOME</a>
           <a href="">ABOUT KETAMINCE</a>
           <a href="">ABOUT US</a> <a href="">PATIENT FORMS</a>
           <a href="">CONTACT US</a>
         </div>
         <div class="d-flex box align-items-center justify-content-center">
-          <div class="hero-container d-flex flex-column justify-content-center">
+          <div
+            class="hero-container d-flex flex-column py-5 justify-content-center"
+          >
             <h1>KETAMINE CLINIC</h1>
             <h5>OF PHILADELPHIA</h5>
             <div class="divider my-3"></div>
-            <p class="fs-5">
+            <p class="">
               Dr. Danish and Dr. Kelly specialize in the use of ketamine
               infusion for depression,<br />
               anxiety,PTSD,and fibromyalgia
@@ -56,7 +68,7 @@
     </section>
 
     <section class="section-1 container fs-5 mb-5">
-      <img src="assets/s1.jpeg" class="s1-img" alt="" />
+      <img src="assets/s1.jpeg" class="s1-img d-none d-lg-block" alt="" />
 
       <div class="p-5 section-card">
         <div class="s1-heading">
@@ -64,8 +76,8 @@
           HELP.
         </div>
         <div class="divider-left"></div>
-        <div class="d-flex justify-content-between">
-          <div class="d-flex flex-column w-50 text-brown">
+        <div class="d-flex flex-column flex-lg-row justify-content-between">
+          <div class="d-flex flex-column text-brown">
             Ketamine infusion is a fast and effective way to treat patients with
             depression, certain anxiety disorders, and PTSD symptoms that have
             failed previous treatment. It can be effective for those suffering
@@ -92,10 +104,10 @@
 
     <section class="section-2 fs-5 container">
       <div class="d-flex">
-        <img src="assets/s2.jpg" class="s2-img d-none d-lg-block" alt="" />
+        <img src="assets/s2.jpg" class="s2-img" alt="" />
 
         <div class="d-flex flex-column">
-          <div class="d-flex">
+          <div class="d-flex flex-column flex-lg-row">
             <p class="p-5 bg-theme text-white">
               Ketamine Infusion can lead to rapid reduction in depressive
               symptoms within hours unlike traditional treatments, which can
@@ -104,7 +116,7 @@
             <p class="p-5 bg-light-theme text-brown">
               Ketamine can help as many as 80% of patients who have failed
               multiple other treatments for depression.<br />
-              <span class="h5 name ">Henderson TA, 2016</span>
+              <span class="h5 name">Henderson TA, 2016</span>
             </p>
           </div>
 
@@ -115,83 +127,107 @@
               feel like I have a whole new purpose!
             </p>
             <i class="fa ms-auto fa-quote-right icon fa-2xl"></i>
-            <p class="h5  mx-auto">30 year old female</p>
+            <p class="h5 mx-auto">30 year old female</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section-3 p-5">
-      <div class="container s3-container d-flex p-5 gap-5">
-        <div class="">
-          <span class="h4">Is ketamine safe?</span> <br />
-          Ketamine infusion for depression hun, thus far, been found to be
-          extremely safe and without significant side effects. It is used t
-          doses lower than what are uned for anesthesia.
+    <section class="section-3 py-lg-5">
+      <div
+        class="container s3-container d-flex flex-column flex-lg-row p-5 gap-5"
+      >
+        <div class="s3-left">
+          <p class="d-flex gap-3 flex-column">
+            <span class="h3">Is ketamine safe?</span>
+            <span>
+              Ketamine infusion for depression hun, thus far, been found to be
+              extremely safe and without significant side effects. It is used t
+              doses lower than what are uned for anesthesia.
+            </span>
+          </p>
           <div class="divider-left"></div>
-          <span class="h4">Is ketamine for me?</span><br />
-          You may be a candidate for ketamine infusion if you suffer from
-          depression, certain niety disorders, Posttraumatic Stress Disorder
-          (PTSD), or fibromyalgia that has not responded to other treatments
+          <p class="d-flex gap-3 flex-column">
+            <span class="h3">Is ketamine for me?</span>
+            <span>
+              You may be a candidate for ketamine infusion if you suffer from
+              depression, certain niety disorders, Posttraumatic Stress Disorder
+              (PTSD), or fibromyalgia that has not responded to other treatments
+            </span>
+          </p>
           <div class="divider-left"></div>
-          <span class="h4">How does the whole process work?</span><br />
-          We have created an easy yet thorough process to ensure that you are a
-          good fit for ketamine infusion. Please visit this page for the
-          overview of the process
+          <p class="d-flex gap-3 flex-column">
+            <span class="h3">How does the whole process work?</span>
+            <span>
+              We have created an easy yet thorough process to ensure that you
+              are a good fit for ketamine infusion. Please visit this page for
+              the overview of the process
+            </span>
+          </p>
         </div>
-        <div class="">
-          <div class="form pt-4 px-5 text-dark">
-            <div class="text-center text-theme-lg mb-4">CONTACT US NOW:</div>
-            <input type="text" class="form-control my-3" placeholder="Name" />
-            <input type="text" class="form-control mb-3" placeholder="Phone" />
-            <p>
-              Is it okay for our staff to call you and leave a voicemail with
-              information pertaining to your condition and our treatment?
-            </p>
-            <input
-              type="radio"
-              value="yes"
-              id="yes"
-              name="yes"
-              class="form-radio"
-            />
-            <label for="yes" class="form-label">Yes</label>
-            <input
-              type="radio"
-              value="no"
-              id="no"
-              name="no"
-              class="form-radio ms-5"
-            />
-            <label for="no" class="form-label mb-3">No</label>
-            <input type="email" class="form-control mb-3" placeholder="Email" />
-            <p>
-              Is it okay for our staff to email you with information pertaining
-              to your condition and our treatment?
-            </p>
-            <input
-              type="radio"
-              value="yes"
-              id="yes"
-              name="yes"
-              class="form-radio"
-            />
-            <label for="yes" class="form-label">Yes</label>
-            <input
-              type="radio"
-              value="no"
-              id="no"
-              name="no"
-              class="form-radio ms-5"
-            />
-            <label for="no" class="form-label mb-3">No</label>
-            <textarea
-              placeholder="Message"
-              rows="5"
-              class="form-control mb-3"
-            ></textarea>
-            <div class="d-flex justify-content-center align-items-center">
-              <div class="btn form-btn">SUBMIT</div>
+        <div class="s3-right d-flex justify-content-around">
+          <div class="form py-4 px-3 px-md-1 text-dark">
+            <div class="text-center h2 text-theme-lg mb-4">CONTACT US NOW:</div>
+            <div class="px-md-2 px-lg-5">
+              <input type="text" class="form-control my-3" placeholder="Name" />
+              <input
+                type="text"
+                class="form-control mb-3"
+                placeholder="Phone"
+              />
+              <p>
+                Is it okay for our staff to call you and leave a voicemail with
+                information pertaining to your condition and our treatment?
+              </p>
+              <input
+                type="radio"
+                value="yes"
+                id="yes"
+                name="yes"
+                class="form-radio"
+              />
+              <label for="yes" class="form-label">Yes</label>
+              <input
+                type="radio"
+                value="no"
+                id="no"
+                name="no"
+                class="form-radio ms-5"
+              />
+              <label for="no" class="form-label mb-3">No</label>
+              <input
+                type="email"
+                class="form-control mb-3"
+                placeholder="Email"
+              />
+              <p>
+                Is it okay for our staff to email you with information
+                pertaining to your condition and our treatment?
+              </p>
+              <input
+                type="radio"
+                value="yes"
+                id="yes"
+                name="yes"
+                class="form-radio"
+              />
+              <label for="yes" class="form-label">Yes</label>
+              <input
+                type="radio"
+                value="no"
+                id="no"
+                name="no"
+                class="form-radio ms-5"
+              />
+              <label for="no" class="form-label mb-3">No</label>
+              <textarea
+                placeholder="Message"
+                rows="3"
+                class="form-control mb-3"
+              ></textarea>
+              <div class="d-flex justify-content-center align-items-center">
+                <div class="btn form-btn">SUBMIT</div>
+              </div>
             </div>
           </div>
         </div>
@@ -210,7 +246,9 @@
         each of our backgrounds.
       </div>
 
-      <div class="profiles my-5 py-5 d-flex justify-content-between">
+      <div
+        class="profiles my-lg-5 py-5 d-flex gap-5 flex-column flex-md-row justify-content-between"
+      >
         <div
           class="d-flex flex-column gap-4 justify-content-center align-items-center"
         >
@@ -234,7 +272,7 @@
 
     <section class="footer text-white fs-5 p-5">
       <div
-        class="container d-flex flex-column flex-lg-row justify-content-between"
+        class="container d-flex flex-column gap-5 flex-md-row justify-content-between"
       >
         <div class="navigation d-flex flex-column">
           <div class="h4">NAVIGATION</div>
@@ -247,19 +285,18 @@
         <div class="contacts d-flex flex-column">
           <div class="h4">CONTACTS</div>
           <div class="fs-5 mt-4 mb-1">
-            <i class="fa fa-phone icon"></i>&nbsp;
-            215-588-1260</div>
+            <i class="fa fa-phone icon"></i>&nbsp; 215-588-1260
+          </div>
           <div class="fs-5 mb-1">
-            <i class="fa fa-envelope icon"></i>&nbsp;
-            info@kcofp.com</div>
+            <i class="fa fa-envelope icon"></i>&nbsp; info@kcofp.com
+          </div>
           <div class="fs-5 mb-1">
-            <i class="fa fa-location-dot icon"></i>&nbsp;
-
-            111 Forest Ave,2nd Floor Narberth, PA 19072
+            <i class="fa fa-location-dot icon"></i>&nbsp; 111 Forest Ave,2nd
+            Floor Narberth, PA 19072
           </div>
         </div>
         <div class="ad d-flex flex-column gap-1">
-          <div class=" mt-5 mb-1 d-flex justify-content-around px-5">
+          <div class="mt-5 mb-1 d-flex justify-content-around px-5">
             <div
               class="icon-fill d-flex justify-content-center align-items-center"
             >
@@ -276,10 +313,15 @@
               <i class="fa-brands fa-linkedin-in fa-xl"></i>
             </div>
           </div>
-          <div class="fs-5 my-1">
+          <div class="fs-5 my-1 d-none d-lg-block">
             <img src="assets/footer-logo.png" class="footer-logo" alt="" />
           </div>
-          <div class="fs-6 mb-1 text-center">2016 Copyright. All Rights Reserved</div>
+          <div class="fs-5 my-1 d-flex justify-content-around d-lg-none">
+            <img src="assets/footer-logo.png" class="footer-logo-1" alt="" />
+          </div>
+          <div class="fs-6 mb-1 text-center">
+            2016 Copyright. All Rights Reserved
+          </div>
         </div>
       </div>
     </section>

@@ -1,0 +1,59 @@
+@media (max-width: 769px) {
+  .fa-bars {
+    cursor: pointer;
+  }
+
+  .kc-logo-1 {
+    mix-blend-mode: darken;
+    width: 50vw;
+  }
+
+  .hero-section h1 {
+    font-weight: 900;
+    font-size: 3rem;
+  }
+
+  .hero-section h5 {
+    font-weight: 300;
+    font-size: 2rem;
+  }
+
+  .hero-section p {
+    font-size: 1rem;
+  }
+
+  .text-theme-lg {
+    color: var(--text-theme) !important;
+    font-weight: 800;
+  }
+
+  .text-theme-md {
+    color: var(--text-theme) !important;
+  }
+
+  .section-1 {
+    background-color: #f6fbfb;
+    margin-top: 1rem;
+  }
+  .section-card {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    box-shadow: #cacfcf -2px 2px;
+  }
+
+  .section-3 {
+    background-image: url("assets/s3.jpg");
+    background-size: cover;
+    background-position: center center;
+    height: 100%;
+  }
+
+  .profile-img {
+    width: 38vw;
+    border: 1px solid black;
+    border-radius: 50%;
+  }
+}
